@@ -7,7 +7,7 @@ const EditPhoto = () => {
   const [captions, setCaptions] = useState("");
   const [href, setHref] = useState("");
   const [loading, setLoading] = useState(false);
-  const [error, setError] = useState(null);
+  const [error] = useState(null);
   const navigate = useNavigate();
   const { id } = useParams();
 
